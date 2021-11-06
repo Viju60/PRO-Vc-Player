@@ -576,7 +576,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛᴇᴅ ꜱᴏɴɢ **queued** ᴀᴛ ᴘᴏꜱɪᴛɪᴏɴ {position}!  ☑️ ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ {} 😎".format(
+            caption="☑️ Pro ᴜꜱᴇʀ ʙʏ {} 😎".format(
                 message.from_user.mention()
             ),
         )
